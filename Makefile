@@ -1,7 +1,8 @@
 .PHONY: dependencies
 pip-install:
 	pip install -r requirements.txt
-
+aws-configure:
+	bash aws_configure.sh
 .PHONY: docker
 start:
 	docker-compose up -d
