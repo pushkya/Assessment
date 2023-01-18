@@ -12,5 +12,5 @@ clean:
 	docker system prune -f
 
 .PHONY: python
-perform-etl:
+etl:
 	python ETL.py --e http://localhost:4566 --q login-queue --m 25
