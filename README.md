@@ -31,7 +31,7 @@ make start
 make perform-etl
 ```
 
-##Postgres 
+## Postgres 
 - To check if messages are loaded correctly on postgres
 ```bash
 psql -d postgres -U postgres -p 5432 -h localhost -W
