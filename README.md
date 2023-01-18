@@ -28,7 +28,7 @@ make start
 
 6. Run Python code to perform ETL process.
 ```bash
-make perform-etl
+make etl
 ```
 
 ## Postgres 
