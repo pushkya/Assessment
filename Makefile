@@ -13,4 +13,4 @@ clean:
 
 .PHONY: python
 etl:
-	python ETL.py --e http://localhost:4566 --q login-queue --m 25
+	python ETL_main.py --e http://localhost:4566 --q login-queue --m 25
